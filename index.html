@@ -1,231 +1,300 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jerry Jacob Stephen | AI-Enabled IT Delivery Leader</title>
-    
-    <!-- SEO and Social Media Meta Descriptions -->
-    <meta name="description" content="Portfolio of Jerry Jacob Stephen: Senior IT Project Manager & AI Transformation Specialist based in the UK. Expert in bridging enterprise governance with rapid AI-assisted SaaS development using Node.js and Google Cloud Run.">
-    <meta name="author" content="Jerry Jacob Stephen">
-    
-    <!-- Open Graph tags for LinkedIn / Twitter previews -->
-    <meta property="og:title" content="Jerry Jacob Stephen | AI-Enabled IT Delivery Leader">
-    <meta property="og:description" content="Senior IT Project Manager bridging the gap between Enterprise Governance and Rapid AI-Assisted SaaS Development.">
-    <meta property="og:image" content="https://jerryjacobstephen.github.io/GH_thumbnail.png">
-    <meta property="og:type" content="website">
-    <meta property="article:published_time" content="2026-03-21T12:00:00+00:00">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jerry Jacob Stephen | BI &amp; Data Consultant | Microsoft Fabric &amp; Power BI</title>
+<meta name="description" content="Jerry Jacob Stephen, BI and Data Consultant in Reading, UK. Microsoft Fabric, PySpark and Power BI, backed by 20+ years of enterprise IT and 16 years of programme delivery at Tata Consultancy Services.">
+<meta property="og:title" content="Jerry Jacob Stephen | BI &amp; Data Consultant">
+<meta property="og:description" content="Microsoft Fabric, PySpark and Power BI, backed by 20+ years of enterprise programme delivery.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://jerryjacobstephen.github.io/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b1020'/%3E%3Crect x='14' y='34' width='8' height='16' fill='%232dd4bf'/%3E%3Crect x='28' y='24' width='8' height='26' fill='%232dd4bf'/%3E%3Crect x='42' y='14' width='8' height='36' fill='%23fbbf24'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0b1020; --panel:#121a2e; --panel-2:#17213a; --line:#23304d;
+    --text:#e6ebf5; --muted:#8b97b0; --teal:#2dd4bf; --amber:#fbbf24; --violet:#a78bfa;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:"Space Grotesk",system-ui,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;
+    background-image:radial-gradient(circle at 15% 0%,rgba(45,212,191,.10),transparent 40%),radial-gradient(circle at 90% 20%,rgba(167,139,250,.08),transparent 40%);}
+  a{color:inherit}
+  .mono{font-family:"JetBrains Mono",monospace}
+  .wrap{max-width:1160px;margin:0 auto;padding:0 24px}
 
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        primary: '#0f172a',
-                        secondary: '#3b82f6',
-                        accent: '#10b981'
-                    },
-                    fontFamily: {
-                        sans: ['Inter', 'system-ui', 'sans-serif'],
-                    }
-                }
-            }
-        }
-    </script>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
-        body { font-family: 'Inter', sans-serif; }
-        .gradient-text {
-            background: linear-gradient(to right, #3b82f6, #10b981);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-        .card-hover {
-            transition: all 0.3s ease;
-        }
-        .card-hover:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
-        }
-    </style>
+  nav{position:sticky;top:0;z-index:30;background:rgba(11,16,32,.85);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+  nav .wrap{display:flex;justify-content:space-between;align-items:center;height:62px}
+  .brand{font-weight:700;text-decoration:none;display:flex;align-items:center;gap:10px}
+  .dot{width:9px;height:9px;border-radius:50%;background:var(--teal);box-shadow:0 0 12px var(--teal)}
+  .links{display:flex;gap:26px;list-style:none}
+  .links a{text-decoration:none;color:var(--muted);font-size:.9rem}
+  .links a:hover{color:var(--teal)}
+  @media(max-width:760px){.links{display:none}}
+
+  .hero{padding:80px 0 56px}
+  .status{display:inline-flex;align-items:center;gap:10px;font-size:.8rem;color:var(--teal);border:1px solid rgba(45,212,191,.35);background:rgba(45,212,191,.07);padding:6px 14px;border-radius:999px;margin-bottom:24px}
+  .hero h1{font-size:clamp(2.5rem,6vw,4.2rem);line-height:1.05;letter-spacing:-.02em;margin-bottom:18px}
+  .hero h1 em{font-style:normal;background:linear-gradient(90deg,var(--teal),var(--violet));-webkit-background-clip:text;background-clip:text;color:transparent}
+  .hero p{font-size:1.15rem;color:var(--muted);max-width:640px;margin-bottom:30px}
+  .btns{display:flex;gap:14px;flex-wrap:wrap}
+  .btn{padding:12px 22px;border-radius:10px;text-decoration:none;font-weight:600;font-size:.95rem;transition:all .15s}
+  .btn-a{background:var(--teal);color:#06201c}
+  .btn-a:hover{box-shadow:0 0 24px rgba(45,212,191,.45)}
+  .btn-b{border:1px solid var(--line);color:var(--text);background:var(--panel)}
+  .btn-b:hover{border-color:var(--teal)}
+
+  .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:52px}
+  @media(max-width:860px){.kpis{grid-template-columns:repeat(2,1fr)}}
+  .kpi{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:20px}
+  .kpi .lbl{font-size:.72rem;color:var(--muted);letter-spacing:.08em;text-transform:uppercase}
+  .kpi .val{font-size:2.2rem;font-weight:700;line-height:1.1;margin:6px 0 4px}
+  .kpi .sub{font-size:.82rem;color:var(--muted)}
+  .kpi:nth-child(1) .val{color:var(--teal)} .kpi:nth-child(2) .val{color:var(--violet)}
+  .kpi:nth-child(3) .val{color:var(--amber)} .kpi:nth-child(4) .val{color:var(--teal)}
+  .bar{height:4px;border-radius:4px;background:var(--line);margin-top:12px;overflow:hidden}
+  .bar i{display:block;height:100%;background:currentColor;opacity:.7}
+
+  section{padding:76px 0}
+  .tag{font-size:.78rem;color:var(--teal);letter-spacing:.06em;margin-bottom:10px}
+  h2{font-size:clamp(1.8rem,3.5vw,2.5rem);letter-spacing:-.01em;margin-bottom:28px}
+
+  .about-grid{display:grid;grid-template-columns:1.4fr 1fr;gap:28px}
+  @media(max-width:900px){.about-grid{grid-template-columns:1fr}}
+  .panel{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:28px}
+  .about-grid p{color:#c5cee0;margin-bottom:14px;font-size:1.04rem}
+  .about-grid strong{color:var(--text)}
+  .facts li{list-style:none;display:flex;justify-content:space-between;gap:12px;padding:11px 0;border-bottom:1px solid var(--line);font-size:.92rem}
+  .facts li:last-child{border:none}
+  .facts span:first-child{color:var(--muted)}
+
+  /* Pipeline */
+  .pipe{display:grid;grid-template-columns:1fr auto 1.1fr auto 1fr auto 1fr;align-items:center;gap:12px}
+  @media(max-width:980px){.pipe{grid-template-columns:1fr}.arrow{transform:rotate(90deg);justify-self:center}}
+  .node{background:var(--panel-2);border:1px solid var(--line);border-radius:12px;padding:16px}
+  .node h4{font-size:.95rem;margin-bottom:8px}
+  .node small{display:block;font-size:.78rem;color:var(--muted);line-height:1.5}
+  .src{display:flex;flex-direction:column;gap:6px}
+  .chip{font-size:.78rem;padding:5px 10px;border-radius:8px;background:#0e1628;border:1px solid var(--line)}
+  .chip.live{border-color:rgba(45,212,191,.5);color:var(--teal)}
+  .chip.wip{border-style:dashed;color:var(--amber);border-color:rgba(251,191,36,.45)}
+  .arrow{color:var(--teal);font-size:1.4rem;text-align:center}
+  .legend{margin-top:14px;font-size:.78rem;color:var(--muted)}
+  .legend b.l{color:var(--teal)} .legend b.w{color:var(--amber)}
+
+  .skills{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+  @media(max-width:980px){.skills{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:560px){.skills{grid-template-columns:1fr}}
+  .skills .panel{padding:22px}
+  .skills h3{font-size:1.02rem;margin-bottom:14px;display:flex;align-items:center;gap:8px}
+  .skills h3::before{content:"";width:8px;height:8px;border-radius:2px;background:var(--teal)}
+  .skills .panel:nth-child(2) h3::before{background:var(--violet)}
+  .skills .panel:nth-child(3) h3::before{background:var(--amber)}
+  .tags{display:flex;flex-wrap:wrap;gap:7px}
+  .tags span{font-size:.8rem;padding:4px 10px;border-radius:7px;background:#0e1628;border:1px solid var(--line);color:#c5cee0}
+
+  .jobs{display:flex;flex-direction:column;gap:16px}
+  .job{display:grid;grid-template-columns:180px 1fr;gap:24px;background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:26px}
+  .job.current{border-color:rgba(45,212,191,.45);box-shadow:0 0 0 1px rgba(45,212,191,.12) inset}
+  @media(max-width:720px){.job{grid-template-columns:1fr;gap:8px}}
+  .job .when{font-size:.8rem;color:var(--teal)}
+  .job .place{font-size:.8rem;color:var(--muted);margin-top:4px}
+  .job h3{font-size:1.18rem;margin-bottom:2px}
+  .job .org{color:var(--muted);font-size:.92rem;margin-bottom:12px}
+  .job ul{padding-left:18px}
+  .job li,.job p{color:#c5cee0;font-size:.95rem;margin-bottom:5px}
+  .job li::marker{color:var(--teal)}
+
+  .certs{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+  @media(max-width:860px){.certs{grid-template-columns:repeat(2,1fr)}}
+  .cert{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:20px}
+  .cert .k{font-size:.72rem;color:var(--amber);letter-spacing:.08em;text-transform:uppercase}
+  .cert b{display:block;margin:6px 0 2px;font-size:1.02rem}
+  .cert span{font-size:.84rem;color:var(--muted)}
+  .edu{margin-top:18px;color:var(--muted);font-size:.92rem}
+
+  .cta{margin:40px auto 70px;padding:50px;border-radius:20px;background:linear-gradient(135deg,#123b3a,#1d1a3f);border:1px solid var(--line);text-align:center}
+  .cta h2{margin-bottom:10px}
+  .cta p{color:#c5cee0;margin-bottom:26px}
+  .cta .btns{justify-content:center}
+  footer{border-top:1px solid var(--line);padding:26px 0 38px;text-align:center;color:var(--muted);font-size:.84rem}
+</style>
 </head>
-<body class="bg-gray-50 text-gray-800 antialiased selection:bg-secondary selection:text-white">
+<body>
 
-    <!-- Availability Banner -->
-    <div class="bg-primary text-white text-center py-3 px-4 text-sm font-medium tracking-wide">
-        <span class="inline-block animate-pulse mr-2 h-2 w-2 bg-accent rounded-full"></span>
-        Currently available for Contract, Freelance, or Permanent IT Management / Technical Lead roles in the UK.
+<nav aria-label="Main">
+  <div class="wrap">
+    <a class="brand" href="#top"><span class="dot"></span>Jerry Jacob Stephen</a>
+    <ul class="links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#platform">Platform</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <div class="status mono"><span class="dot"></span>BI &amp; Data Consultant · Reading, UK</div>
+    <h1>I turn messy CRM and ERP data into <em>decisions the CEO trusts.</em></h1>
+    <p>Microsoft Fabric, PySpark and Power BI, backed by 20+ years of enterprise IT and 16 years leading programmes at Tata Consultancy Services.</p>
+    <div class="btns">
+      <a class="btn btn-a" href="mailto:jerryjacob.stephen@gmail.com">Contact Me</a>
+      <a class="btn btn-b" href="https://www.linkedin.com/in/jerry-jacob-stephen" target="_blank" rel="noopener">LinkedIn Profile</a>
     </div>
+    <div class="kpis">
+      <div class="kpi"><div class="lbl mono">Experience</div><div class="val">20+</div><div class="sub">years in enterprise IT</div><div class="bar" style="color:var(--teal)"><i style="width:100%"></i></div></div>
+      <div class="kpi"><div class="lbl mono">TCS tenure</div><div class="val">16 yrs</div><div class="sub">UK, US and India</div><div class="bar" style="color:var(--violet)"><i style="width:80%"></i></div></div>
+      <div class="kpi"><div class="lbl mono">Largest team</div><div class="val">300+</div><div class="sub">associate support unit</div><div class="bar" style="color:var(--amber)"><i style="width:90%"></i></div></div>
+      <div class="kpi"><div class="lbl mono">Improvements</div><div class="val">20+</div><div class="sub">delivered in six months</div><div class="bar" style="color:var(--teal)"><i style="width:70%"></i></div></div>
+    </div>
+  </div>
+</header>
 
-    <!-- Hero Section -->
-    <header class="bg-white border-b border-gray-200 pt-16 pb-20 px-4 sm:px-6 lg:px-8">
-        <div class="max-w-5xl mx-auto text-center">
-            <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold text-primary tracking-tight mb-4">
-                Jerry Jacob <span class="gradient-text">Stephen</span>
-            </h1>
-            <h2 class="text-xl sm:text-2xl text-gray-600 font-light mb-8 max-w-3xl mx-auto">
-                Senior IT Project Manager bridging the gap between <strong class="font-semibold text-gray-800">Enterprise Governance</strong> and <strong class="font-semibold text-gray-800">Rapid AI-Assisted SaaS Development</strong>.
-            </h2>
-            
-            <div class="flex flex-col sm:flex-row justify-center items-center gap-4 mb-10">
-                <a href="mailto:jerryjacob.stephen@gmail.com" class="w-full sm:w-auto px-8 py-3 bg-secondary hover:bg-blue-600 text-white rounded-lg shadow-md font-medium transition-colors flex items-center justify-center gap-2">
-                    <i class="fas fa-envelope"></i> Contact Me
-                </a>
-                <a href="https://www.linkedin.com/in/jerry-jacob-stephen" target="_blank" class="w-full sm:w-auto px-8 py-3 bg-white border border-gray-300 hover:border-gray-400 text-gray-700 rounded-lg shadow-sm font-medium transition-colors flex items-center justify-center gap-2">
-                    <i class="fab fa-linkedin text-blue-700"></i> LinkedIn Profile
-                </a>
-            </div>
+<section id="about">
+  <div class="wrap">
+    <div class="tag mono">// the_unique_advantage</div>
+    <h2>Hands-on data builder. Programme-grade delivery.</h2>
+    <div class="about-grid">
+      <div class="panel">
+        <p>Most BI developers can build a dashboard but have never owned a programme budget or a steering committee. Most programme managers can run governance but have never opened a semantic model. <strong>I do both.</strong></p>
+        <p>After 16 years at Tata Consultancy Services leading cloud migrations and digital transformation, I moved into data and BI consultancy in 2026. At <strong>Route 101</strong>, a UK cloud communications provider, I am building a <strong>Microsoft Fabric data platform</strong> that brings sales, finance and customer data into one governed reporting layer for the CEO and sales leadership.</p>
+        <p>With a finance degree behind me, I read the numbers the way the business does.</p>
+      </div>
+      <div class="panel">
+        <ul class="facts">
+          <li><span>Focus</span><span>BI, data platforms, MI</span></li>
+          <li><span>Stack</span><span>Fabric · PySpark · Power BI</span></li>
+          <li><span>Sources</span><span>HubSpot · NetSuite</span></li>
+          <li><span>Method</span><span>Agile, Scrum, PRINCE2</span></li>
+          <li><span>Location</span><span>Reading, UK · Remote / Hybrid</span></li>
+          <li><span>Open to</span><span>Contract or permanent</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
 
-            <div class="flex flex-wrap justify-center gap-4 text-sm text-gray-500 font-medium">
-                <span class="flex items-center gap-1"><i class="fas fa-map-marker-alt text-gray-400"></i> Reading / Earley, UK</span>
-                <span class="hidden sm:inline text-gray-300">|</span>
-                <span class="flex items-center gap-1"><i class="fas fa-certificate text-gray-400"></i> PRINCE2 & PSM I Certified</span>
-            </div>
+<section id="platform">
+  <div class="wrap">
+    <div class="tag mono">// current_build</div>
+    <h2>What I am building now</h2>
+    <div class="panel">
+      <div class="pipe">
+        <div class="node"><h4>Sources</h4>
+          <div class="src">
+            <span class="chip live">HubSpot CRM</span>
+            <span class="chip live">NetSuite ERP</span>
+            <span class="chip wip">Zendesk</span>
+            <span class="chip wip">Gong · NICE</span>
+          </div>
         </div>
-    </header>
+        <div class="arrow" aria-hidden="true">→</div>
+        <div class="node"><h4>Microsoft Fabric</h4><small>Lakehouse with PySpark Notebooks to ingest, clean and model data</small></div>
+        <div class="arrow" aria-hidden="true">→</div>
+        <div class="node"><h4>Semantic model</h4><small>P1 to P3 table plan, incremental refresh, Tabular Editor, TMDL &amp; ALM Toolkit governance</small></div>
+        <div class="arrow" aria-hidden="true">→</div>
+        <div class="node"><h4>Power BI</h4><small>CEO Sales MI dashboard: pipeline, deal stages, team performance, target vs forecast</small></div>
+      </div>
+      <p class="legend mono"><b class="l">■</b> live &nbsp; <b class="w">■</b> in progress</p>
+    </div>
+  </div>
+</section>
 
-    <!-- Main Content -->
-    <main class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        
-        <!-- About Section -->
-        <section class="mb-20">
-            <h3 class="text-2xl font-bold text-primary mb-6 flex items-center gap-2">
-                <i class="fas fa-user-astronaut text-secondary"></i> The Unique Advantage
-            </h3>
-            <div class="bg-white rounded-2xl p-8 border border-gray-100 shadow-sm text-gray-600 leading-relaxed text-lg">
-                <p class="mb-4">
-                    Most project managers can run a Jira board, but they don't understand the underlying code. Most developers can write code, but lack the experience to navigate enterprise budgets, RAID logs, and executive governance. <strong class="text-gray-800">I do both.</strong>
-                </p>
-                <p>
-                    After 15+ years delivering complex IT programmes across healthcare and financial services at Tata Consultancy Services (TCS), I stepped away to consult independently. During this time, I have immersed myself in the future of software engineering: building cloud-native SaaS applications using AI-assisted workflows. I am looking to bring this powerful hybrid of <span class="text-secondary font-semibold">structured leadership</span> and <span class="text-accent font-semibold">agile technical execution</span> to a forward-thinking organisation in the UK.
-                </p>
-            </div>
-        </section>
+<section id="skills">
+  <div class="wrap">
+    <div class="tag mono">// core_competencies</div>
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="panel"><h3>Data &amp; BI</h3><div class="tags"><span>Microsoft Fabric</span><span>Lakehouse</span><span>Notebooks</span><span>PySpark</span><span>Power BI</span><span>DAX</span><span>Power Query</span><span>Semantic modelling</span><span>SQL Server</span></div></div>
+      <div class="panel"><h3>Integration &amp; Governance</h3><div class="tags"><span>HubSpot</span><span>NetSuite</span><span>Incremental refresh</span><span>Tabular Editor</span><span>TMDL</span><span>ALM Toolkit</span><span>Git</span><span>SharePoint</span></div></div>
+      <div class="panel"><h3>Enterprise Delivery</h3><div class="tags"><span>Agile &amp; Scrum</span><span>PRINCE2</span><span>Hybrid delivery</span><span>RAID</span><span>Budgets</span><span>Vendor &amp; SLA</span><span>Stakeholders</span></div></div>
+      <div class="panel"><h3>AI &amp; Automation</h3><div class="tags"><span>Copilot business cases</span><span>Fabric AI</span><span>Power Automate</span><span>Claude</span><span>Gemini</span></div></div>
+    </div>
+  </div>
+</section>
 
-        <!-- Competencies Grid -->
-        <section class="mb-20">
-            <h3 class="text-2xl font-bold text-primary mb-6 flex items-center gap-2">
-                <i class="fas fa-layer-group text-secondary"></i> Core Competencies
-            </h3>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                
-                <!-- Card 1 -->
-                <div class="bg-white rounded-xl p-6 border border-gray-100 shadow-sm card-hover">
-                    <div class="h-12 w-12 bg-blue-50 text-blue-600 rounded-lg flex items-center justify-center text-xl mb-4">
-                        <i class="fas fa-project-diagram"></i>
-                    </div>
-                    <h4 class="text-xl font-bold text-primary mb-3">Enterprise Leadership</h4>
-                    <ul class="text-gray-600 space-y-2 text-sm">
-                        <li><i class="fas fa-check text-green-500 mr-2"></i> Agile, Scrum, Waterfall & Hybrid</li>
-                        <li><i class="fas fa-check text-green-500 mr-2"></i> Budget & Vendor Management</li>
-                        <li><i class="fas fa-check text-green-500 mr-2"></i> RAID, Governance & Compliance</li>
-                        <li><i class="fas fa-check text-green-500 mr-2"></i> Executive PowerBI Reporting</li>
-                    </ul>
-                </div>
-
-                <!-- Card 2 -->
-                <div class="bg-white rounded-xl p-6 border border-gray-100 shadow-sm card-hover">
-                    <div class="h-12 w-12 bg-purple-50 text-purple-600 rounded-lg flex items-center justify-center text-xl mb-4">
-                        <i class="fas fa-robot"></i>
-                    </div>
-                    <h4 class="text-xl font-bold text-primary mb-3">AI-Driven Engineering</h4>
-                    <ul class="text-gray-600 space-y-2 text-sm">
-                        <li><i class="fas fa-check text-green-500 mr-2"></i> Cursor & Antigravity IDE</li>
-                        <li><i class="fas fa-check text-green-500 mr-2"></i> Vibe Coding & Multi-agent workflows</li>
-                        <li><i class="fas fa-check text-green-500 mr-2"></i> Claude Sonnet/Opus & Gemini</li>
-                        <li><i class="fas fa-check text-green-500 mr-2"></i> Rapid SaaS Prototyping</li>
-                    </ul>
-                </div>
-
-                <!-- Card 3 -->
-                <div class="bg-white rounded-xl p-6 border border-gray-100 shadow-sm card-hover">
-                    <div class="h-12 w-12 bg-emerald-50 text-emerald-600 rounded-lg flex items-center justify-center text-xl mb-4">
-                        <i class="fas fa-cloud"></i>
-                    </div>
-                    <h4 class="text-xl font-bold text-primary mb-3">Cloud & Architecture</h4>
-                    <ul class="text-gray-600 space-y-2 text-sm">
-                        <li><i class="fas fa-check text-green-500 mr-2"></i> Node.js & Full-stack Web</li>
-                        <li><i class="fas fa-check text-green-500 mr-2"></i> Google Cloud Run & Firebase</li>
-                        <li><i class="fas fa-check text-green-500 mr-2"></i> Supabase (PostgreSQL)</li>
-                        <li><i class="fas fa-check text-green-500 mr-2"></i> GitHub CI/CD Pipelines</li>
-                    </ul>
-                </div>
-
-            </div>
-        </section>
-
-        <!-- Experience Timeline -->
-        <section>
-            <h3 class="text-2xl font-bold text-primary mb-8 flex items-center gap-2">
-                <i class="fas fa-briefcase text-secondary"></i> Professional Journey
-            </h3>
-            
-            <div class="space-y-8 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-gray-300 before:to-transparent">
-                
-                <!-- Item 1 -->
-                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
-                    <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-white shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 text-secondary z-10">
-                        <i class="fas fa-rocket"></i>
-                    </div>
-                    <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-6 rounded-xl border border-gray-100 shadow-sm">
-                        <div class="flex items-center justify-between mb-1">
-                            <h4 class="font-bold text-primary text-lg">Independent Technical Lead</h4>
-                            <span class="text-sm font-medium text-secondary">Present</span>
-                        </div>
-                        <div class="text-sm text-gray-500 mb-3">Independent Consultant, UK</div>
-                        <p class="text-gray-600 text-sm">Architecting and developing AI-driven SaaS prototypes. Utilizing Node.js, Google Cloud Run, Supabase, and Stripe integrations, heavily accelerated by AI tools like Cursor and Antigravity IDE.</p>
-                    </div>
-                </div>
-
-                <!-- Item 2 -->
-                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
-                    <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-white shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 text-primary z-10">
-                        <i class="fas fa-building"></i>
-                    </div>
-                    <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-6 rounded-xl border border-gray-100 shadow-sm">
-                        <div class="flex items-center justify-between mb-1">
-                            <h4 class="font-bold text-primary text-lg">Senior IT Project Manager</h4>
-                            <span class="text-sm font-medium text-gray-500">2019 - Recent</span>
-                        </div>
-                        <div class="text-sm text-gray-500 mb-3">Tata Consultancy Services (TCS), UK</div>
-                        <p class="text-gray-600 text-sm">Led enterprise IT programmes including cloud migrations and system modernizations. Championed Agile adoption, managed multi-million budgets, and automated reporting workflows saving 45+ hours monthly.</p>
-                    </div>
-                </div>
-
-                <!-- Item 3 -->
-                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
-                    <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-white shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 text-gray-400 z-10">
-                        <i class="fas fa-globe-americas"></i>
-                    </div>
-                    <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-6 rounded-xl border border-gray-100 shadow-sm">
-                        <div class="flex items-center justify-between mb-1">
-                            <h4 class="font-bold text-primary text-lg">IT Technology Lead</h4>
-                            <span class="text-sm font-medium text-gray-500">2009 - 2019</span>
-                        </div>
-                        <div class="text-sm text-gray-500 mb-3">TCS (India & USA)</div>
-                        <p class="text-gray-600 text-sm">Led a 3.5-year onsite engagement in the US. Managed operations for 300+ associate production support units. Built optimized SQL architectures and web apps for financial and healthcare clients.</p>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="bg-primary text-white py-10 text-center">
-        <div class="max-w-5xl mx-auto px-4">
-            <h3 class="text-2xl font-bold mb-6">Ready to accelerate your digital delivery?</h3>
-            <a href="mailto:jerryjacob.stephen@gmail.com" class="inline-block px-8 py-3 bg-accent hover:bg-green-500 text-white rounded-lg font-medium transition-colors mb-8 shadow-lg">
-                Get In Touch Today
-            </a>
-            <div class="text-gray-400 text-sm border-t border-gray-700 pt-6">
-                &copy; 2026 Jerry Jacob Stephen. All rights reserved. <br>
-                Based in Reading, UK.
-            </div>
+<section id="experience">
+  <div class="wrap">
+    <div class="tag mono">// career_log</div>
+    <h2>Experience</h2>
+    <div class="jobs">
+      <article class="job current">
+        <div><div class="when mono">Jun 2026 to Present</div><div class="place">Bristol, UK · Remote</div></div>
+        <div>
+          <h3>Data and MI Consultant</h3><div class="org">Route 101 Ltd · Contract</div>
+          <ul>
+            <li>Designing and building a Microsoft Fabric data platform for a UK cloud communications provider</li>
+            <li>Developing PySpark Notebooks to ingest, clean and model HubSpot and NetSuite data</li>
+            <li>Delivered a CEO-level Sales MI dashboard in Power BI</li>
+            <li>Designed the semantic model, table priority plan and incremental refresh strategy</li>
+            <li>Introduced model governance with Tabular Editor, TMDL and ALM Toolkit</li>
+            <li>Built the business case for Fabric and Copilot licensing</li>
+            <li>Currently extending the platform with Zendesk, Gong and NICE pipelines</li>
+          </ul>
         </div>
-    </footer>
+      </article>
+      <article class="job">
+        <div><div class="when mono">Aug 2019 to Mar 2026</div><div class="place">Reading, UK</div></div>
+        <div>
+          <h3>IT Programme Manager, PRINCE2 Agile &amp; Digital Transformation</h3><div class="org">Tata Consultancy Services</div>
+          <ul>
+            <li>Directed a multi-stream cloud migration programme with executive governance and risk management</li>
+            <li>Led migration of enterprise document management from on-premise to cloud</li>
+            <li>Delivered 20+ improvements in six months, automating reporting with Power BI and Power Automate</li>
+            <li>Managed customer and vendor contracts, SLA governance and compliance</li>
+          </ul>
+        </div>
+      </article>
+      <article class="job">
+        <div><div class="when mono">Sep 2016 to Aug 2019</div><div class="place">Chennai, India</div></div>
+        <div><h3>IT Project Manager, Operations</h3><div class="org">Tata Consultancy Services</div>
+          <p>Directed a 300+ associate production support unit for a major US insurance client, covering P1 and P2 incidents, automation, finances and RFPs.</p></div>
+      </article>
+      <article class="job">
+        <div><div class="when mono">Dec 2009 to Sep 2016</div><div class="place">Connecticut, USA</div></div>
+        <div><h3>IT Technology Lead</h3><div class="org">Tata Consultancy Services</div>
+          <p>3+ years onsite in the US, doubling team capacity. Led technical design, business analysis and database development for reporting solutions.</p></div>
+      </article>
+      <article class="job">
+        <div><div class="when mono">Feb 2003 to Dec 2009</div><div class="place">Chennai &amp; Mysore, India</div></div>
+        <div><h3>Software Engineer &amp; Senior Software Analyst</h3><div class="org">Teamware Solutions (contract to TCS) · Kaparthy Infotech</div>
+          <p>Full-stack development in Visual Basic, Classic ASP and SQL Server, including a three-tier web application that automated medical transcription workflow.</p></div>
+      </article>
+    </div>
+  </div>
+</section>
 
+<section>
+  <div class="wrap">
+    <div class="tag mono">// credentials</div>
+    <h2>Certifications</h2>
+    <div class="certs">
+      <div class="cert"><div class="k mono">Microsoft</div><b>Power BI Data Analyst Associate</b><span>PL-300</span></div>
+      <div class="cert"><div class="k mono">AXELOS</div><b>PRINCE2 Agile Foundation</b><span>Project management</span></div>
+      <div class="cert"><div class="k mono">Scrum.org</div><b>Professional Scrum Master I</b><span>PSM I</span></div>
+      <div class="cert"><div class="k mono">Agile</div><b>Agile Coach</b><span>Certification</span></div>
+    </div>
+    <p class="edu">Education: MCom (Finance) and BCom (Finance), University of Madras</p>
+  </div>
+</section>
+
+<div class="wrap" id="contact">
+  <div class="cta">
+    <h2>Need a BI consultant who can also run the programme?</h2>
+    <p>Open to senior BI, data and technical delivery roles across the UK.</p>
+    <div class="btns">
+      <a class="btn btn-a" href="mailto:jerryjacob.stephen@gmail.com">Get In Touch</a>
+      <a class="btn btn-b" href="https://www.linkedin.com/in/jerry-jacob-stephen" target="_blank" rel="noopener">Connect on LinkedIn</a>
+    </div>
+  </div>
+</div>
+
+<footer class="mono">© 2026 Jerry Jacob Stephen · Based in Reading, UK</footer>
 </body>
 </html>
